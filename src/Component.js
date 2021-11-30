@@ -1,6 +1,6 @@
 // import reactDom from "react-dom";
 import react from "react";
-import "./style.css"
+// import "./style.css"
 
 const Comp = (props)=> {
     return (<div className="Product" >
