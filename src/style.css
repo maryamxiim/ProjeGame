@@ -1,5 +1,38 @@
-.Product {
-  border: 1px solid black;
-  padding: 20px 40px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.total {
   display: flex;
+  align-items: center;
+  width: 360px;
+  height: 360px;
+  overflow: hidden;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(177, 113, 214);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.caption {
+  font-size: 20px;
+  color: black;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.player {
+  font-size: 20px;
+  color: black;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
 }
