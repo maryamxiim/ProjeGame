@@ -15,7 +15,7 @@ function App() {
         ]
     })
 
-    
+   
     // mark X or O
 
     function takeTurn(position) {
@@ -28,7 +28,6 @@ function App() {
             positions,
         })
     }
-    console.log(state.player);
 
 
 
@@ -60,6 +59,17 @@ function App() {
 
 
     };
+// const rest = ()=>{ setstate("")}
+
+    function reset() {
+       
+    setstate({player: "CIRCLE",
+    positions: [
+        'EMPTY', 'EMPTY','EMPTY',
+        'EMPTY', 'EMPTY','EMPTY',
+        'EMPTY', 'EMPTY','EMPTY',
+    ]})
+    }
 
     const winners = Winner(state.positions);
 
@@ -83,6 +93,7 @@ function App() {
             <div className="caption">
            Winner : {winners && <Resualt winners={winners} />}    
         </div>
+        <div className="reset"><button onClick={reset} >Reset</button></div>
         </div>
        
 

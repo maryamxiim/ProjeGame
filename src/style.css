@@ -20,7 +20,7 @@
 .caption {
   font-size: 20px;
   color: black;
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,4 +35,17 @@
   justify-content: center;
   align-items: center;
   font-weight: bolder;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.reset > button {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid burlywood;
 }
