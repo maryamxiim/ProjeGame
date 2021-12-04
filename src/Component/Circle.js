@@ -1,4 +1,5 @@
 import "../style/Svg.css"
+import { ReactComponent as CirclesIcon } from './Circlesvg.svg'
 
 
 function Circle() {
@@ -6,7 +7,7 @@ function Circle() {
 
         <div>
             <div className="circle">
-            
+            <CirclesIcon />
         </div>
         </div>
 

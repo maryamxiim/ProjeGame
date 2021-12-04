@@ -76,7 +76,7 @@ function App() {
     return(
 
         <div >
-            <div className="player"> Playe : {state.player}</div>
+            <div className="player"> Playe :  [{state.player}] </div>
           
         
            <div  className="total">
@@ -91,7 +91,7 @@ function App() {
             <Square position={8}  value={state.positions[8]} takeTurn={takeTurn}  /> 
            </div>
             <div className="caption">
-           Winner : {winners && <Resualt winners={winners} />}    
+           Winner = &nbsp; {winners && <Resualt winners={winners} />}    
         </div>
         <div className="reset"><button onClick={reset} >Reset</button></div>
         </div>
