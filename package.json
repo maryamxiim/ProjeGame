@@ -3,6 +3,7 @@
   "name": "first-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://maryamxiim.github.io/ProjeGame/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -18,8 +19,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+<<<<<<< HEAD
     "predeploy": "yarn run build",
 "deploy": "gh-pages -d build"
+=======
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+>>>>>>> c94cfff2093af0e81c7a12d8bafa4b402ba12dda
   },
   "eslintConfig": {
     "extends": [
