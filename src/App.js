@@ -69,8 +69,6 @@ function App() {
         'EMPTY', 'EMPTY','EMPTY',
         'EMPTY', 'EMPTY','EMPTY',
     ]})
-    window.localStorage.clear()
-    window.location.reload()
     }
 
     const winners = Winner(state.positions);
