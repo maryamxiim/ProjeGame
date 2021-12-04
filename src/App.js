@@ -69,11 +69,6 @@ function App() {
         'EMPTY', 'EMPTY','EMPTY',
         'EMPTY', 'EMPTY','EMPTY',
     ]})
-<<<<<<< HEAD
-=======
-    window.localStorage.clear()
-    window.location.reload()
->>>>>>> c94cfff2093af0e81c7a12d8bafa4b402ba12dda
     }
 
     const winners = Winner(state.positions);
@@ -98,11 +93,7 @@ function App() {
             <div className="caption">
            Winner : {winners && <Resualt winners={winners} />}    
         </div>
-<<<<<<< HEAD
         <div className="reset"><button onClick={reset} >Reset</button></div>
-=======
-        <div><button onClick={reset}>Reset</button></div>
->>>>>>> c94cfff2093af0e81c7a12d8bafa4b402ba12dda
         </div>
        
 
