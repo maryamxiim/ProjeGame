@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/ProjeGame/static/css/main.f443abee.chunk.css",
-    "main.js": "/ProjeGame/static/js/main.cb256982.chunk.js",
-    "main.js.map": "/ProjeGame/static/js/main.cb256982.chunk.js.map",
+    "main.css": "/ProjeGame/static/css/main.98e99750.chunk.css",
+    "main.js": "/ProjeGame/static/js/main.2ea6d0c8.chunk.js",
+    "main.js.map": "/ProjeGame/static/js/main.2ea6d0c8.chunk.js.map",
     "runtime-main.js": "/ProjeGame/static/js/runtime-main.f789c796.js",
     "runtime-main.js.map": "/ProjeGame/static/js/runtime-main.f789c796.js.map",
-    "static/js/2.41c42596.chunk.js": "/ProjeGame/static/js/2.41c42596.chunk.js",
-    "static/js/2.41c42596.chunk.js.map": "/ProjeGame/static/js/2.41c42596.chunk.js.map",
+    "static/js/2.57f924b7.chunk.js": "/ProjeGame/static/js/2.57f924b7.chunk.js",
+    "static/js/2.57f924b7.chunk.js.map": "/ProjeGame/static/js/2.57f924b7.chunk.js.map",
     "index.html": "/ProjeGame/index.html",
-    "static/css/main.f443abee.chunk.css.map": "/ProjeGame/static/css/main.f443abee.chunk.css.map",
-    "static/js/2.41c42596.chunk.js.LICENSE.txt": "/ProjeGame/static/js/2.41c42596.chunk.js.LICENSE.txt"
+    "static/css/main.98e99750.chunk.css.map": "/ProjeGame/static/css/main.98e99750.chunk.css.map",
+    "static/js/2.57f924b7.chunk.js.LICENSE.txt": "/ProjeGame/static/js/2.57f924b7.chunk.js.LICENSE.txt",
+    "static/media/Circlesvg.0362fc67.svg": "/ProjeGame/static/media/Circlesvg.0362fc67.svg",
+    "static/media/CrossSVG.d3f39509.svg": "/ProjeGame/static/media/CrossSVG.d3f39509.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f789c796.js",
-    "static/js/2.41c42596.chunk.js",
-    "static/css/main.f443abee.chunk.css",
-    "static/js/main.cb256982.chunk.js"
+    "static/js/2.57f924b7.chunk.js",
+    "static/css/main.98e99750.chunk.css",
+    "static/js/main.2ea6d0c8.chunk.js"
   ]
 }
